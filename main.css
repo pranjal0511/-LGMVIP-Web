@@ -1,10 +1,10 @@
 :root {
-	--dark: #2de7a0;
+	--dark: #96e72d;
 	--darker: #1F2937;
-	--darkest: #06205a;
+	--darkest: #365a06;
 	--grey: #020710;
-	--pink: #EC4899;
-	--purple: #8B5CF6;
+	--pink: #c8ec48;
+	--purple: #f0ebfa;
 	--light: rgb(210, 198, 198);
 }
 
@@ -24,7 +24,7 @@ body {
 
 header {
 	padding: 2rem 1rem;
-	max-width: 800px;
+    max-width: 800px;
 	width: 100%;
 	margin: 0 auto;
 }
@@ -58,7 +58,7 @@ input, button {
 }
 
 #new-task-input::placeholder {
-	color: var(--light);
+    color: var(--light);
 }
 
 #new-task-submit {
@@ -152,5 +152,5 @@ main {
 }
 
 .task .actions .delete {
-	color: crimson;
-} 
+	color: rgb(220, 20, 130);
+}  

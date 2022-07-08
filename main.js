@@ -1,5 +1,5 @@
 window.addEventListener('load', () => {
-	const form = document.querySelector("#new-task-form");
+	const form = document.querySelector("#new task-form");
 	const input = document.querySelector("#new-task-input");
 	const list_el = document.querySelector("#tasks");
 
@@ -59,4 +59,4 @@ window.addEventListener('load', () => {
 			list_el.removeChild(task_el);
 		});
 	});
-}); 
+});  
